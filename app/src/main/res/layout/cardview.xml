@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_180sdp"
+        tools:ignore="MissingConstraints">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="@dimen/_240sdp"
+            android:layout_height="@dimen/_170sdp"
+            app:cardCornerRadius="@dimen/_15sdp"
+            app:cardElevation="@dimen/_3sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.75"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.156">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_55sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:fontFamily="sans-serif"
+                android:text="User Name"
+                android:textColor="#144444"
+                android:textSize="@dimen/_15sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/invite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_190sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="+INVITE"
+                android:textColor="#144444"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/locale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_55sdp"
+                android:layout_marginTop="@dimen/_52sdp"
+                android:text="Location | Profession"
+                android:textColor="#144444" />
+
+            <TextView
+                android:id="@+id/dis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_55sdp"
+                android:layout_marginTop="@dimen/_69sdp"
+                android:textStyle="bold"
+                android:text="Within distance"
+                android:textColor="#144444" />
+
+            <TextView
+                android:id="@+id/proff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_130sdp"
+                android:text="Available for"
+                android:textColor="#144444"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/avail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_150sdp"
+                android:text="Description"
+                android:textColor="#144444"
+                android:textSize="15dp"
+                tools:ignore="TextSizeCheck" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView4"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_70sdp"
+            app:cardBackgroundColor="#9B9EAF"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.130"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.170"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/shortcut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="UN"
+                android:textColor="#14444A"
+                android:textSize="@dimen/_28sdp"
+                android:textStyle="bold" />
+
+
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

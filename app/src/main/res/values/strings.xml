@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="coffebtn">Coffee</string>
+    <string name="busibtn">Businesst</string>
+    <string name="hobby">Hobbies</string>
+    <string name="friend">Friendship</string>
+    <string name="Movie">Movies</string>
+    <string name="din">Dinning</string>
+    <string name="date">Dating</string>
+    <string name="matri">Matrimony</string>
+    <string name="back">Save &amp; Explore </string>
+
+</resources>
